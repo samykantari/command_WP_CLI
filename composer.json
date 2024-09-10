@@ -1,0 +1,19 @@
+{
+    "name": "samykantari/toolbox_wp",
+    "description": "",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/samykantari/toolbox_wp",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kantari Samy",
+            "email": "samy@whodunit.fr"
+        }
+    ],
+  "autoload": {
+    "files": [ "permission.php", "databases.php" ]
+  }
+}
